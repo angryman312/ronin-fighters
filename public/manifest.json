@@ -1,0 +1,25 @@
+{
+  "short_name": "Ronin Fighters",
+  "name": "Ronin Fighters - Luchadores en Pixel Art | Ronin Fighters Descubre Ronin Fighters, un emocionante proyecto en la web 3 que combina luchadores en pixel art, NFTs y una colección única. Infórmate sobre nuestra whitepaper y únete a la comunidad.",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "500x500 256x256 128x128 64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

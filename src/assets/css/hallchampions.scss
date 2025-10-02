@@ -1,0 +1,51 @@
+.hall-section {
+  background-color: rgb(1, 15, 26);
+  width: 100%;
+  display: flex;
+  padding-top: 150px;
+
+  .hall-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+
+    .hall-img-section {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-bottom: 140px;
+
+      .hall-img {
+        width: 194px;
+        height: 186px;
+      }
+    }
+
+    .hall-text {
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+
+    .hall-content {
+      font-size: 100px;
+      font-family: "Space Grotesk", sans-serif;
+      line-height: 1.2;
+    }
+
+    .hall-img-bottom-section {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-bottom: 80px;
+
+      .hall-img {
+        width: 194px;
+        height: 186px;
+      }
+    }
+  }
+}

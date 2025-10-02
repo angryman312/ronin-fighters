@@ -1,0 +1,90 @@
+.staking-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url(../images/staking_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 150px;
+  overflow: auto;
+
+  /* Style the scrollbar itself */
+  &::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+
+  .staking-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+
+    .staking-logo {
+      position: fixed;
+      top: 0;
+      left: 0;
+
+      .logo-img {
+        width: 220px;
+      }
+    }
+
+    .staking-list {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding-bottom: 80px;
+
+      .staking-item {
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .staking-card {
+          width: 100%;
+
+          .card-img {
+            width: 100%;
+          }
+        }
+
+        .staking-btn-group {
+          display: flex;
+          width: 100%;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+
+          .staking-btn {
+            background-color: transparent;
+            border: 0;
+            outline: 0;
+            width: 120px;
+            height: 60px;
+            cursor: pointer;
+
+            &:hover {
+              transform: scale(1.02);
+              transition: all 0.2s ease-in-out;
+            }
+
+            .stake-btn-img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

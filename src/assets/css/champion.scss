@@ -1,0 +1,43 @@
+.champion-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 913px;
+  position: relative;
+
+  .champion-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/champion.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+  }
+
+  .champion-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    padding-bottom: 40px;
+    width: 100%;
+    height: 100%;
+
+    .sub-text {
+      width: 70%;
+      font-size: 32px;
+      font-family: "Rubik", sans-serif;
+      line-height: 1.5;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.35);
+      margin-left: 80px;
+    }
+  }
+}

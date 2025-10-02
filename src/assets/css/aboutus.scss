@@ -1,0 +1,30 @@
+.aboutus-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .aboutus-wrapper {
+    height: 704px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .aboutus-title {
+      width: 50%;
+      background-color: rgba(0, 0, 0, 0.17);
+      font-size: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: "Roboto\ Condensed";
+      margin-top: 63px;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.mechanics-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 1043px;
+  position: relative;
+
+  .mechanics-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/luchadores-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .mechanics-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    z-index: 3;
+    padding-bottom: 40px;
+    width: 100%;
+    height: 100%;
+
+    .moneda-img {
+      position: absolute;
+      bottom: 100px;
+      right: 100px;
+      width: 480px;
+      height: 600px;
+    }
+
+    .mechanics-title {
+      width: 50%;
+      background-color: rgba(0, 0, 0, 0.17);
+      font-size: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: "Roboto\ Condensed";
+      margin-top: 53px;
+      margin-bottom: 100px;
+    }
+
+    .sub-content {
+      width: 85%;
+      font-size: 32px;
+      font-family: "Rubik", sans-serif;
+      line-height: 1.5;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.25);
+      margin-left: 20px;
+      margin-bottom: 200px;
+    }
+
+    .sub-text {
+      width: 32%;
+      font-size: 32px;
+      font-family: "Rubik", sans-serif;
+      line-height: 1.5;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.3);
+      margin-left: 80px;
+    }
+  }
+}
